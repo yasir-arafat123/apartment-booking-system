@@ -1,0 +1,24 @@
+/* Navigation Bar */
+.niche-navbar {
+    background-color: transparent;
+    margin-bottom: -56px;
+}
+
+@media screen and (max-width: 991px) {
+    .niche-navbar {
+        background-color: var(--bs-gray-dark);
+        margin-bottom: 0;
+    }
+}
+
+/* Navigation */
+.niche-navbar .niche-nav-btn {
+    color: #363636;
+    font-weight: 500;
+}
+
+.niche-nav-btn:hover {
+    color: white;
+    background-color: #3d73c5;
+    border: 1px solid#2564c2;
+}
